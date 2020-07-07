@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "YourFontName";
+  src: url("FuturaPTBook.otf");
+}
+
+body,
+html {
+  margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.topContainer {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  min-height: max-content;
+  padding-bottom: 120px;
+  /*background-color: rgb(221, 227, 255);*/
+  background-color: #020c20;
+
+  padding-top: 200px;
+}
+
+/* .imgContainer {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  left: 295px;
+  top: 100px;
+} */
+
+.textContainer {
+  color: #B0B4BD;
+  display: inline-block;
+  position: relative;
+  bottom: 60px;
+}
+
+.me {
+  height: 200px;
+}
+
+.text1 {
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 300;
+  font-size: 60px;
+  margin: 15px;
+}
+
+.text2 {
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 30px;
+  margin-top: 13px;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.middleContainer {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  min-height: max-content;
+  padding-bottom: 120px;
+}
+
+.profile {
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+
+.me2 {
+  height: 200px;
+  margin: 0px;
+  padding-top: 100px;
+}
+
+.hi {
+  color: #020c20;
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 500;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+  left: 7px;
+}
+
+.bio {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 22px;
+  position: relative;
+  left: 7px;
+  line-height: 2;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.skillText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #020c20;
+  position: relative;
+  padding-top: 20px;
+}
+
+.skillRow1 {
+  position: relative;
+  width: 50%;
+  margin: 60px auto 80px auto;
+}
+
+.html5 {
+  /*height: 100px;
+  right: 100px;
+  top: 10px;*/
+  height: 120px;
+  float: left; 
+}
+
+/*.css{
+  height: 100px;
+  position: relative;
+  top: 10px;
+}
+
+.js {
+  height: 100px;
+  position: relative;
+  left: 100px;
+  top: 10px;
+}*/
+
+.skillDescription1 {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 22px;
+  position: relative;
+  /* margin: 25px;
+  padding-top: 10px;
+  line-height: 1.5; */
+
+  line-height: 2;
+  text-align: left;
+  left: 40px;
+  bottom: 4px;
+}
+
+.skillRow2 {
+  position: relative;
+  width: 50%;
+  margin: 60px auto 80px auto;
+}
+
+.sketchbook {
+  height: 120px;
+  position: relative;
+  float: right;
+  right: 20px;
+}
+
+/* .affinityDesigner {
+  height: 107px;
+  position: relative;
+  left: 100px;
+  top: 5px;
+  top: 10px;
+}
+
+.adobeIllustrator {
+  height: 100px;
+  position: relative;
+  right: 100px;
+  top: 10px;
+} */
+
+.skillDescription2 {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 22px;
+  position: relative;
+  right: 40px;
+  /* margin: 25px;
+  padding-top: 10px;
+  line-height: 1.5; */
+
+  text-align: left;
+  line-height: 2;
+  bottom: 7px;
+  padding-left: 50px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.contactMe {
+  position: relative;
+  top: 25px;
+  width: 50%;
+  margin: 0px auto 0px auto;
+}
+
+.getInTouch {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #020c20;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  margin-top: 0px;
+}
+
+.dream {
+  font-family: "Karla", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  color: #020c20;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 20px;
+  position: relative;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.contactImg {
+  height: 50px;
+  padding-top: 10px;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.bottomContainer {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-color: #020c20;
+  height: 220px;
+}
+
+.footer-link-1 {
+  text-decoration: none;
+  color: rgb(220, 219, 255);
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  right: 300px;
+}
+
+.footer-link-2 {
+  text-decoration: none;
+  color: rgb(220, 219, 255);
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  left: 390px;
+}
+
+.footer-link-3 {
+  text-decoration: none;
+  color: rgb(220, 219, 255);
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  right: 70px;
+}
+
+.rights {
+  text-decoration: none;
+  color: rgb(220, 219, 255);
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 400px;
+  font-size: 15px;
+  position: relative;
+  top: 110px;
+}
+
+hr {
+  width: 5%;
+  border-top: 1px #020c20;
+  border-style: none;
+  border-top-style: solid;
+}
