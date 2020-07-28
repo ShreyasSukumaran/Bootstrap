@@ -12,6 +12,32 @@ html {
 
 /*------------------------------------------------------------------------------------------------------------*/
 
+.me1 {
+  height: 70px;
+}
+
+
+.navbar {
+  background-color: #020c20;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 700px;
+}
+
+.nav-item {
+  padding: 30px;
+}
+
+.nav-link {
+  color: #B0B4BD;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
 .topContainer {
   text-align: center;
   display: inline-block;
